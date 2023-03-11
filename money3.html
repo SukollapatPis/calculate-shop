@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Income and Expenses Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+    <body>
+        <h1>โปรแกรมคำนวณจ่ายตลาด</h1>
+        <p>สร้างโดย PZTUDIO</p>
+        <form>
+        <label for="income">รายรับวันนี้ :</label>
+        <input type="number" id="income" name="income" min="0" max="100000" step="100"><br><br>
+        <label for="pay">ราคาแต่ละรายการ :</label>
+        <input type="number" id="pay" name="pay" min="0" max="100000" step="1"><br><br>
+        <button type="button" onclick="addExpense()">เพิ่มรายการ</button>
+        <button type="button" onclick="calculate()">คำนวณ</button>
+        </form>
+        <br>
+        <div id="result"></div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>

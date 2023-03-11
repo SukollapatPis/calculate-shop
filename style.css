@@ -1,0 +1,46 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+input[type="number"] {
+    width: 100%;
+    font-size: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    }
+
+button:hover {
+    background-color: #28652b;
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
